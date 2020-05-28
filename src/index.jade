@@ -27,13 +27,13 @@ html(lang='ru')
       div(style="margin-left: 50%; width: 60%; font-size: 0.8em")
         h2 Кто я?
         ul
-          li.next Верстала еще на таблицах
+          li.next Верстала ещё на таблицах
           li.next jQuery, VanillaJS, AngularJS, React, Angular и Vue.js
           li.next И Node.js
           li.next Была начальником отдела фронтенда
           li.next Выгорела
           li.next Уволилась и 6 месяцев не работала
-          li.next Lead Frontend Developer в Expert Soft
+          li.next Поработала 6 месяцев, и опять уволилась
         p(style="margin-top: 50px")
           img.logo(src="pictures/minskcss.png")
           img.logo(src="pictures/minskjs.png")
@@ -135,53 +135,8 @@ html(lang='ru')
       +cover('pictures/happiness.jpg')
     +slide({header: "", classes: "no-page"})
       video.cover(src="pictures/good.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: "no-page"})
-      +cover('pictures/deeper.jpg')
     +slide({header: "", classes: ""})
       +cover('pictures/hard.jpg')
-    +slide({header: "Факт 1. В браузере только HTML, CSS и JS", classes: ""})
-      +cover('pictures/browser.jpg')
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/candy.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: ""})
-      +cover('pictures/ugly.jpg')
-    +slide({header: "", classes: ""})
-      div(style="text-align: center; margin-top: 100px; font-size: 30px")
-        p Чему в JavaScript будет равен
-          span(style="font-family: monospace") i
-          |  после выполнения
-        pre(style="font-family: monospace;  font-size: 45px; display: inline-block; background-color: #ddd; padding: 10px 30px") var i = 5; i = ++i + ++i;
-    +slide({header: "", classes: ""})
-      a.copyright(href="https://github.com/getify/You-Dont-Know-JS") You Don't Know JS (book series)
-      +cover('pictures/know.jpg')
-    +slide({header: "Факт 2. Чтобы быть крутым фронтендером, надо много знать", classes: ""})
-      +cover('pictures/bad.jpg')
-    +slide({header: "", classes: ""})
-      +cover('pictures/path.jpg')
-    +slide({header: "", classes: "no-page"})
-      +cover('pictures/free.jpg')
-    +slide({header: "", classes: ""})
-      +cover('pictures/job.jpg')
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/junior.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/middle.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/no_thanks.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/lead.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
-    +slide({header: "", classes: "black"})
-      img.cover(src="pictures/avocado.gif", style="height: 100%; max-width: none;")
-    +slide({header: "Факт 3. Разработчики не смотрят \"под капот\"", classes: ""})
-      +cover('pictures/scared.jpg')
-    +slide({header: "", classes: ""})
-      +cover('pictures/clients.jpg')
-    +slide({header: "", classes: ""})
-      +cover('pictures/swift-tweet.jpg')
-    +slide({header: "", classes: ""})
-      +cover('pictures/maked.jpg')
-    +slide({header: "", classes: "no-page"})
-      video.cover(src="pictures/explosion.mp4", autoplay, loop, muted, playsinline, style="width: 100%; max-height: none;")
     +slide({header: "", classes: ""})
       +cover('pictures/history.jpg')
     +slide({header: "", classes: ""})
@@ -204,9 +159,6 @@ html(lang='ru')
       +cover('pictures/mv.jpg')
     +slide({header: "", classes: ""})
       +cover('pictures/angularjs.jpg')
-    +slide({header: "", classes: "no-page"})
-      a.copyright(href="https://www.youtube.com/watch?v=r1A1VR0ibIQ") Miško Hevery and Brad Green — Keynote
-      +cover('pictures/google_feedback.jpg')
     +slide({header: "", classes: "no-page"})
       +cover('pictures/spongebob.jpg')
     +slide({header: "", classes: ""})
@@ -278,28 +230,11 @@ html(lang='ru')
       +cover('pictures/bullet.jpg')
       +cover('pictures/no.png')
     +slide({header: "", classes: ""})
-      h2(style="color: #fff") P.P.S.
-      +cover('pictures/webassembly.jpg')
-    +slide({header: "", classes: ""})
-      a.copyright(href="https://github.com/appcypher/awesome-wasm-langs") Awesome WebAssembly Languages
-      +cover('pictures/wasm.jpg')
-    +slide({header: "Фронтенд — это ещё и...", classes: ""})
-      ul
-        li Бэкенд на Node.js
-        li.next Мобильная разработка на ReactNative/Ionic/Quasar/...
-        li.next Progressive Web Applications (PWA)
-        li.next Десктопные приложения на Electron
-        li.next 3D-моделирование на WebGL
-        li.nextИ да, в
-          a(href="https://habr.com/ru/post/374131/" target="_blank") браузере можно майнить
-          | !
-    +slide({header: "", classes: ""})
-      h2(style="color: #eee") P.P.P.S.
+      h2(style="color: #eee") P.P.S.
       p(style="display: inline-block; background-color: #000; color: #fff; margin-top: 115px; font-size: 90px; padding: 30px; line-height: 1.2;") Фреймворки — это&nbsp;чужой&nbsp;говнокод
       +cover('pictures/evil.jpg')
     +slide({name: 'theend', header: "", classes: ''})
       p.end-link(style="position: absolute; bottom: 5%")
-        a.bigger(href="http://bit.ly/IWD-frameworks" target="_blank") bit.ly/IWD-frameworks
         br
         | Александра Шинкевич (
         a(href='https://twitter.com/neesoglasnaja' target="_blank") @neesoglasnaja
